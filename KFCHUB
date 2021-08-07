@@ -1,0 +1,270 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Gui = Instance.new("ScreenGui")
+local Backround = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_2 = Instance.new("UICorner")
+local Heading = Instance.new("TextLabel")
+local MainBackround = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local NotImportant = Instance.new("Frame")
+local ButtonScroll = Instance.new("ScrollingFrame")
+local Home = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Main = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Combat = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local GodStuff = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local FunStuff = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local ModCMDS = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local AdminCMDS = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local OwnerCMDS = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Credits = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local UIGridLayout = Instance.new("UIGridLayout")
+local MainFrame = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local Creator = Instance.new("TextLabel")
+
+--Properties:
+
+Gui.Name = "Gui"
+Gui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Backround.Name = "Backround"
+Backround.Parent = Gui
+Backround.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+Backround.Position = UDim2.new(0.269306958, 0, 0.226164073, 0)
+Backround.Size = UDim2.new(0, 466, 0, 246)
+
+UICorner.Parent = Backround
+
+ImageLabel.Parent = Backround
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.0128755365, 0, 0.024390243, 0)
+ImageLabel.Size = UDim2.new(0, 53, 0, 53)
+ImageLabel.Image = "rbxassetid://3414232461"
+
+UICorner_2.Parent = ImageLabel
+
+Heading.Name = "Heading"
+Heading.Parent = Backround
+Heading.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Heading.BackgroundTransparency = 1.000
+Heading.Position = UDim2.new(0.143776819, 0, 0.0569105707, 0)
+Heading.Size = UDim2.new(0, 116, 0, 36)
+Heading.Font = Enum.Font.Cartoon
+Heading.Text = "KFC Hub"
+Heading.TextColor3 = Color3.fromRGB(0, 0, 0)
+Heading.TextScaled = true
+Heading.TextSize = 14.000
+Heading.TextWrapped = true
+
+MainBackround.Name = "MainBackround"
+MainBackround.Parent = Backround
+MainBackround.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+MainBackround.Position = UDim2.new(0, 0, 0.268292695, 0)
+MainBackround.Size = UDim2.new(0, 465, 0, 180)
+
+UICorner_3.Parent = MainBackround
+
+NotImportant.Name = "NotImportant"
+NotImportant.Parent = MainBackround
+NotImportant.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+NotImportant.BorderSizePixel = 0
+NotImportant.Position = UDim2.new(0, 0, -0.00392952561, 0)
+NotImportant.Size = UDim2.new(0, 465, 0, 16)
+
+ButtonScroll.Name = "ButtonScroll"
+ButtonScroll.Parent = Backround
+ButtonScroll.Active = true
+ButtonScroll.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+ButtonScroll.BorderSizePixel = 0
+ButtonScroll.Position = UDim2.new(0.0300429203, 0, 0.307784528, 0)
+ButtonScroll.Size = UDim2.new(0, 100, 0, 159)
+
+Home.Name = "Home"
+Home.Parent = ButtonScroll
+Home.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Home.Position = UDim2.new(0, 0, 0.0197459403, 0)
+Home.Size = UDim2.new(0, 82, 0, 27)
+Home.Font = Enum.Font.Cartoon
+Home.Text = "Home"
+Home.TextColor3 = Color3.fromRGB(0, 0, 0)
+Home.TextScaled = true
+Home.TextSize = 14.000
+Home.TextWrapped = true
+
+UICorner_4.Parent = Home
+
+Main.Name = "Main"
+Main.Parent = ButtonScroll
+Main.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Main.Position = UDim2.new(0, 0, 0.0868191123, 0)
+Main.Size = UDim2.new(0, 82, 0, 27)
+Main.Font = Enum.Font.Cartoon
+Main.Text = "Main"
+Main.TextColor3 = Color3.fromRGB(0, 0, 0)
+Main.TextScaled = true
+Main.TextSize = 14.000
+Main.TextWrapped = true
+
+UICorner_5.Parent = Main
+
+Combat.Name = "Combat"
+Combat.Parent = ButtonScroll
+Combat.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Combat.Position = UDim2.new(0, 0, 0.153892279, 0)
+Combat.Size = UDim2.new(0, 82, 0, 27)
+Combat.Font = Enum.Font.Cartoon
+Combat.Text = "Combat"
+Combat.TextColor3 = Color3.fromRGB(0, 0, 0)
+Combat.TextSize = 25.000
+Combat.TextWrapped = true
+
+UICorner_6.Parent = Combat
+
+GodStuff.Name = "GodStuff"
+GodStuff.Parent = ButtonScroll
+GodStuff.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+GodStuff.Position = UDim2.new(0, 0, 0.22096546, 0)
+GodStuff.Size = UDim2.new(0, 82, 0, 27)
+GodStuff.Font = Enum.Font.Cartoon
+GodStuff.Text = "God Stuff"
+GodStuff.TextColor3 = Color3.fromRGB(0, 0, 0)
+GodStuff.TextSize = 20.000
+GodStuff.TextWrapped = true
+
+UICorner_7.Parent = GodStuff
+
+FunStuff.Name = "FunStuff"
+FunStuff.Parent = ButtonScroll
+FunStuff.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+FunStuff.Position = UDim2.new(0, 0, 0.288038641, 0)
+FunStuff.Size = UDim2.new(0, 82, 0, 27)
+FunStuff.Font = Enum.Font.Cartoon
+FunStuff.Text = "Fun Stuff"
+FunStuff.TextColor3 = Color3.fromRGB(0, 0, 0)
+FunStuff.TextSize = 20.000
+FunStuff.TextWrapped = true
+
+UICorner_8.Parent = FunStuff
+
+ModCMDS.Name = "ModCMDS"
+ModCMDS.Parent = ButtonScroll
+ModCMDS.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+ModCMDS.Position = UDim2.new(0, 0, 0.355111808, 0)
+ModCMDS.Size = UDim2.new(0, 82, 0, 27)
+ModCMDS.Font = Enum.Font.Cartoon
+ModCMDS.Text = "Mod CMDS"
+ModCMDS.TextColor3 = Color3.fromRGB(0, 0, 0)
+ModCMDS.TextScaled = true
+ModCMDS.TextSize = 11.000
+ModCMDS.TextWrapped = true
+
+UICorner_9.Parent = ModCMDS
+
+AdminCMDS.Name = "AdminCMDS"
+AdminCMDS.Parent = ButtonScroll
+AdminCMDS.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+AdminCMDS.Position = UDim2.new(0, 0, 0.426250011, 0)
+AdminCMDS.Size = UDim2.new(0, 82, 0, 27)
+AdminCMDS.Font = Enum.Font.Cartoon
+AdminCMDS.Text = "Admin CMDS"
+AdminCMDS.TextColor3 = Color3.fromRGB(0, 0, 0)
+AdminCMDS.TextScaled = true
+AdminCMDS.TextSize = 10.000
+AdminCMDS.TextWrapped = true
+
+UICorner_10.Parent = AdminCMDS
+
+OwnerCMDS.Name = "OwnerCMDS"
+OwnerCMDS.Parent = ButtonScroll
+OwnerCMDS.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+OwnerCMDS.Position = UDim2.new(0, 0, 0.497388244, 0)
+OwnerCMDS.Size = UDim2.new(0, 82, 0, 27)
+OwnerCMDS.Font = Enum.Font.Cartoon
+OwnerCMDS.Text = "Owner CMDS"
+OwnerCMDS.TextColor3 = Color3.fromRGB(0, 0, 0)
+OwnerCMDS.TextSize = 14.000
+OwnerCMDS.TextWrapped = true
+
+UICorner_11.Parent = OwnerCMDS
+
+Credits.Name = "Credits"
+Credits.Parent = ButtonScroll
+Credits.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Credits.Position = UDim2.new(0, 0, 0.572591484, 0)
+Credits.Size = UDim2.new(0, 82, 0, 27)
+Credits.Font = Enum.Font.Cartoon
+Credits.Text = "Credits"
+Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
+Credits.TextSize = 20.000
+Credits.TextWrapped = true
+
+UICorner_12.Parent = Credits
+
+UIGridLayout.Parent = ButtonScroll
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellSize = UDim2.new(0, 85, 0, 30)
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = Backround
+MainFrame.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+MainFrame.Position = UDim2.new(0.272532135, 0, 0.307784528, 0)
+MainFrame.Size = UDim2.new(0, 325, 0, 159)
+
+UICorner_13.Parent = MainFrame
+
+Creator.Name = "Creator"
+Creator.Parent = Backround
+Creator.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Creator.BackgroundTransparency = 1.000
+Creator.Position = UDim2.new(0.693133056, 0, 0.0569105707, 0)
+Creator.Size = UDim2.new(0, 116, 0, 36)
+Creator.Font = Enum.Font.Cartoon
+Creator.Text = "Creator: Azder#4345"
+Creator.TextColor3 = Color3.fromRGB(0, 0, 0)
+Creator.TextScaled = true
+Creator.TextSize = 14.000
+Creator.TextWrapped = true
+
+-- Scripts:
+
+local function ODSHMXQ_fake_script() -- Gui.Open/Close 
+	local script = Instance.new('LocalScript', Gui)
+
+	local FrameObject = script.Parent.FrameObject
+	local Open = false
+	
+	local PositionClosed = UDim2.new{0.184, 0,-1, 0}
+	local PostionOpen = UDim2.new{0.184, 0,0.146, 0}
+	
+	local UserInputService = game:GetService("UserInputService")
+	
+	UserInputService.InputBegan:connect (function(keyCode)
+		if keyCode.keyCode == Enum.KeyCode.V then
+			if Open then
+				FrameObject:TweenPosition((PositionClosed),'Out','Linear',.25)
+				Open = false
+			else
+				Open = true
+				FrameObject:TweenPosition((PostionOpen),'Out','Linear',.25)
+	
+			end
+		end
+	end)
+end
+coroutine.wrap(ODSHMXQ_fake_script)()
