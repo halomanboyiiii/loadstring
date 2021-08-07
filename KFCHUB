@@ -23,18 +23,93 @@ local GodStuff = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
 local FunStuff = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
-local ModCMDS = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
-local AdminCMDS = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
-local OwnerCMDS = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
 local Credits = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
 local UIGridLayout = Instance.new("UIGridLayout")
+local BlankFrame = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local Creator = Instance.new("TextLabel")
+local HomeFrame = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local UICorner_12 = Instance.new("UICorner")
+local Heading_2 = Instance.new("TextLabel")
 local MainFrame = Instance.new("Frame")
 local UICorner_13 = Instance.new("UICorner")
-local Creator = Instance.new("TextLabel")
+local SpeedButton = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local SpeedMinus = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local FlyButton = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local TransparencyButton = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local SpeedPlus = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local FlyMinus = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local FlyPlus = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local TransparencyPlus = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local AntibanButton = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local UnbanButton = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local LockPlayerBox = Instance.new("TextBox")
+local UICorner_24 = Instance.new("UICorner")
+local KillButton = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local TransparencyMinus = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local CombatFrame = Instance.new("Frame")
+local UICorner_27 = Instance.new("UICorner")
+local AimlockButton = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local ReachButton = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local BagAllButton = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local AntiBagButton = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local UnbagButton = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local KillAllButton = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local AnnoyCopsButton = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local GodStuffFrame = Instance.new("Frame")
+local UICorner_35 = Instance.new("UICorner")
+local SkinnyGodModeButton = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local GodUnbanButton = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
+local GodUnbanSkinnyButton = Instance.new("TextButton")
+local UICorner_38 = Instance.new("UICorner")
+local FunStuffFrame = Instance.new("Frame")
+local UICorner_39 = Instance.new("UICorner")
+local KorbloxGiverButton = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local HeadlessButton = Instance.new("TextButton")
+local UICorner_41 = Instance.new("UICorner")
+local SupermanFlyButton = Instance.new("TextButton")
+local UICorner_42 = Instance.new("UICorner")
+local AmogusButton = Instance.new("TextButton")
+local UICorner_43 = Instance.new("UICorner")
+local AngelButton = Instance.new("TextButton")
+local UICorner_44 = Instance.new("UICorner")
+local DemonButton = Instance.new("TextButton")
+local UICorner_45 = Instance.new("UICorner")
+local FortniteBuildButton = Instance.new("TextButton")
+local UICorner_46 = Instance.new("UICorner")
+local ShazamButton = Instance.new("TextButton")
+local UICorner_47 = Instance.new("UICorner")
+local FatDumpButton = Instance.new("TextButton")
+local UICorner_48 = Instance.new("UICorner")
+local CreditsFrame = Instance.new("Frame")
+local UICorner_49 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -47,6 +122,9 @@ Backround.Parent = Gui
 Backround.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
 Backround.Position = UDim2.new(0.269306958, 0, 0.226164073, 0)
 Backround.Size = UDim2.new(0, 466, 0, 246)
+Backround.Active = true
+Backround.Selectable = true
+Backround.Draggable = true
 
 UICorner.Parent = Backround
 
@@ -92,7 +170,7 @@ ButtonScroll.Parent = Backround
 ButtonScroll.Active = true
 ButtonScroll.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
 ButtonScroll.BorderSizePixel = 0
-ButtonScroll.Position = UDim2.new(0.0300429203, 0, 0.307784528, 0)
+ButtonScroll.Position = UDim2.new(0.0278969966, 0, 0.307784528, 0)
 ButtonScroll.Size = UDim2.new(0, 100, 0, 159)
 
 Home.Name = "Home"
@@ -106,6 +184,14 @@ Home.TextColor3 = Color3.fromRGB(0, 0, 0)
 Home.TextScaled = true
 Home.TextSize = 14.000
 Home.TextWrapped = true
+Home.MouseButton1Click:connect(function()
+	Home.Parent.Parent.HomeFrame.Visible = true
+	Main.Parent.Parent.MainFrame.Visible = false
+	Combat.Parent.Parent.CombatFrame.Visible = false
+	FunStuff.Parent.Parent.FunStuffFrame.Visible = false
+	GodStuff.Parent.Parent.GodStuffFrame.Visible = false
+	Credits.Parent.Parent.CreditsFrame.Visible = false
+end)
 
 UICorner_4.Parent = Home
 
@@ -120,6 +206,14 @@ Main.TextColor3 = Color3.fromRGB(0, 0, 0)
 Main.TextScaled = true
 Main.TextSize = 14.000
 Main.TextWrapped = true
+Main.MouseButton1Click:connect(function()
+	Home.Parent.Parent.HomeFrame.Visible = false
+	Main.Parent.Parent.MainFrame.Visible = true
+	Combat.Parent.Parent.CombatFrame.Visible = false
+	FunStuff.Parent.Parent.FunStuffFrame.Visible = false
+	GodStuff.Parent.Parent.GodStuffFrame.Visible = false
+	Credits.Parent.Parent.CreditsFrame.Visible = false
+end)
 
 UICorner_5.Parent = Main
 
@@ -133,6 +227,14 @@ Combat.Text = "Combat"
 Combat.TextColor3 = Color3.fromRGB(0, 0, 0)
 Combat.TextSize = 25.000
 Combat.TextWrapped = true
+Combat.MouseButton1Click:connect(function()
+	Home.Parent.Parent.HomeFrame.Visible = false
+	Main.Parent.Parent.MainFrame.Visible = false
+	Combat.Parent.Parent.CombatFrame.Visible = true
+	FunStuff.Parent.Parent.FunStuffFrame.Visible = false
+	GodStuff.Parent.Parent.GodStuffFrame.Visible = false
+	Credits.Parent.Parent.CreditsFrame.Visible = false
+end)
 
 UICorner_6.Parent = Combat
 
@@ -146,6 +248,14 @@ GodStuff.Text = "God Stuff"
 GodStuff.TextColor3 = Color3.fromRGB(0, 0, 0)
 GodStuff.TextSize = 20.000
 GodStuff.TextWrapped = true
+GodStuff.MouseButton1Click:connect(function()
+	Home.Parent.Parent.HomeFrame.Visible = false
+	Main.Parent.Parent.MainFrame.Visible = false
+	Combat.Parent.Parent.CombatFrame.Visible = false
+	FunStuff.Parent.Parent.FunStuffFrame.Visible = false
+	GodStuff.Parent.Parent.GodStuffFrame.Visible = true
+	Credits.Parent.Parent.CreditsFrame.Visible = false
+end)
 
 UICorner_7.Parent = GodStuff
 
@@ -159,49 +269,16 @@ FunStuff.Text = "Fun Stuff"
 FunStuff.TextColor3 = Color3.fromRGB(0, 0, 0)
 FunStuff.TextSize = 20.000
 FunStuff.TextWrapped = true
+FunStuff.MouseButton1Click:connect(function()
+	Home.Parent.Parent.HomeFrame.Visible = false
+	Main.Parent.Parent.MainFrame.Visible = false
+	Combat.Parent.Parent.CombatFrame.Visible = false
+	FunStuff.Parent.Parent.FunStuffFrame.Visible = true
+	GodStuff.Parent.Parent.GodStuffFrame.Visible = false
+	Credits.Parent.Parent.CreditsFrame.Visible = false
+end)
 
 UICorner_8.Parent = FunStuff
-
-ModCMDS.Name = "ModCMDS"
-ModCMDS.Parent = ButtonScroll
-ModCMDS.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
-ModCMDS.Position = UDim2.new(0, 0, 0.355111808, 0)
-ModCMDS.Size = UDim2.new(0, 82, 0, 27)
-ModCMDS.Font = Enum.Font.Cartoon
-ModCMDS.Text = "Mod CMDS"
-ModCMDS.TextColor3 = Color3.fromRGB(0, 0, 0)
-ModCMDS.TextScaled = true
-ModCMDS.TextSize = 11.000
-ModCMDS.TextWrapped = true
-
-UICorner_9.Parent = ModCMDS
-
-AdminCMDS.Name = "AdminCMDS"
-AdminCMDS.Parent = ButtonScroll
-AdminCMDS.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
-AdminCMDS.Position = UDim2.new(0, 0, 0.426250011, 0)
-AdminCMDS.Size = UDim2.new(0, 82, 0, 27)
-AdminCMDS.Font = Enum.Font.Cartoon
-AdminCMDS.Text = "Admin CMDS"
-AdminCMDS.TextColor3 = Color3.fromRGB(0, 0, 0)
-AdminCMDS.TextScaled = true
-AdminCMDS.TextSize = 10.000
-AdminCMDS.TextWrapped = true
-
-UICorner_10.Parent = AdminCMDS
-
-OwnerCMDS.Name = "OwnerCMDS"
-OwnerCMDS.Parent = ButtonScroll
-OwnerCMDS.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
-OwnerCMDS.Position = UDim2.new(0, 0, 0.497388244, 0)
-OwnerCMDS.Size = UDim2.new(0, 82, 0, 27)
-OwnerCMDS.Font = Enum.Font.Cartoon
-OwnerCMDS.Text = "Owner CMDS"
-OwnerCMDS.TextColor3 = Color3.fromRGB(0, 0, 0)
-OwnerCMDS.TextSize = 14.000
-OwnerCMDS.TextWrapped = true
-
-UICorner_11.Parent = OwnerCMDS
 
 Credits.Name = "Credits"
 Credits.Parent = ButtonScroll
@@ -213,20 +290,28 @@ Credits.Text = "Credits"
 Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
 Credits.TextSize = 20.000
 Credits.TextWrapped = true
+Credits.MouseButton1Click:connect(function()
+	Home.Parent.Parent.HomeFrame.Visible = false
+	Main.Parent.Parent.MainFrame.Visible = false
+	Combat.Parent.Parent.CombatFrame.Visible = false
+	FunStuff.Parent.Parent.FunStuffFrame.Visible = false
+	GodStuff.Parent.Parent.GodStuffFrame.Visible = false
+	Credits.Parent.Parent.CreditsFrame.Visible = true
+end)
 
-UICorner_12.Parent = Credits
+UICorner_9.Parent = Credits
 
 UIGridLayout.Parent = ButtonScroll
 UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
 UIGridLayout.CellSize = UDim2.new(0, 85, 0, 30)
 
-MainFrame.Name = "MainFrame"
-MainFrame.Parent = Backround
-MainFrame.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
-MainFrame.Position = UDim2.new(0.272532135, 0, 0.307784528, 0)
-MainFrame.Size = UDim2.new(0, 325, 0, 159)
+BlankFrame.Name = "BlankFrame"
+BlankFrame.Parent = Backround
+BlankFrame.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+BlankFrame.Position = UDim2.new(0.272532135, 0, 0.307784528, 0)
+BlankFrame.Size = UDim2.new(0, 325, 0, 159)
 
-UICorner_13.Parent = MainFrame
+UICorner_10.Parent = BlankFrame
 
 Creator.Name = "Creator"
 Creator.Parent = Backround
@@ -241,9 +326,553 @@ Creator.TextScaled = true
 Creator.TextSize = 14.000
 Creator.TextWrapped = true
 
+HomeFrame.Name = "HomeFrame"
+HomeFrame.Parent = Backround
+HomeFrame.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+HomeFrame.Position = UDim2.new(0.272532135, 0, 0.307784528, 0)
+HomeFrame.Size = UDim2.new(0, 325, 0, 159)
+HomeFrame.Visible = false
+
+UICorner_11.Parent = HomeFrame
+
+ImageLabel_2.Parent = HomeFrame
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Position = UDim2.new(0.111337043, 0, 0.275962591, 0)
+ImageLabel_2.Size = UDim2.new(0, 61, 0, 61)
+ImageLabel_2.Image = "rbxassetid://3414232461"
+
+UICorner_12.Parent = ImageLabel_2
+
+Heading_2.Name = "Heading"
+Heading_2.Parent = HomeFrame
+Heading_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Heading_2.BackgroundTransparency = 1.000
+Heading_2.Position = UDim2.new(0.362238407, 0, 0.277036369, 0)
+Heading_2.Size = UDim2.new(0, 178, 0, 60)
+Heading_2.Font = Enum.Font.Cartoon
+Heading_2.Text = "KFC Hub"
+Heading_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Heading_2.TextScaled = true
+Heading_2.TextSize = 14.000
+Heading_2.TextWrapped = true
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = Backround
+MainFrame.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+MainFrame.Position = UDim2.new(0.272532135, 0, 0.307784528, 0)
+MainFrame.Size = UDim2.new(0, 325, 0, 159)
+MainFrame.Visible = false
+
+UICorner_13.Parent = MainFrame
+
+SpeedButton.Name = "SpeedButton"
+SpeedButton.Parent = MainFrame
+SpeedButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+SpeedButton.Position = UDim2.new(0.0184615385, 0, 0.0314465426, 0)
+SpeedButton.Size = UDim2.new(0, 95, 0, 38)
+SpeedButton.Font = Enum.Font.Cartoon
+SpeedButton.Text = "Speed"
+SpeedButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpeedButton.TextScaled = true
+SpeedButton.TextSize = 14.000
+SpeedButton.TextWrapped = true
+
+UICorner_14.Parent = SpeedButton
+
+SpeedMinus.Name = "SpeedMinus"
+SpeedMinus.Parent = MainFrame
+SpeedMinus.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+SpeedMinus.Position = UDim2.new(0.0184615385, 0, 0.314465404, 0)
+SpeedMinus.Size = UDim2.new(0, 43, 0, 38)
+SpeedMinus.Font = Enum.Font.Cartoon
+SpeedMinus.Text = "-"
+SpeedMinus.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpeedMinus.TextScaled = true
+SpeedMinus.TextSize = 14.000
+SpeedMinus.TextWrapped = true
+
+UICorner_15.Parent = SpeedMinus
+
+FlyButton.Name = "FlyButton"
+FlyButton.Parent = MainFrame
+FlyButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+FlyButton.Position = UDim2.new(0.335384607, 0, 0.0314465426, 0)
+FlyButton.Size = UDim2.new(0, 104, 0, 38)
+FlyButton.Font = Enum.Font.Cartoon
+FlyButton.Text = "Fly"
+FlyButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+FlyButton.TextScaled = true
+FlyButton.TextSize = 14.000
+FlyButton.TextWrapped = true
+
+UICorner_16.Parent = FlyButton
+
+TransparencyButton.Name = "TransparencyButton"
+TransparencyButton.Parent = MainFrame
+TransparencyButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+TransparencyButton.Position = UDim2.new(0.686153829, 0, 0.0314465463, 0)
+TransparencyButton.Size = UDim2.new(0, 95, 0, 38)
+TransparencyButton.Font = Enum.Font.Cartoon
+TransparencyButton.Text = "Transparency"
+TransparencyButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TransparencyButton.TextScaled = true
+TransparencyButton.TextSize = 14.000
+TransparencyButton.TextWrapped = true
+
+UICorner_17.Parent = TransparencyButton
+
+SpeedPlus.Name = "SpeedPlus"
+SpeedPlus.Parent = MainFrame
+SpeedPlus.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+SpeedPlus.Position = UDim2.new(0.178461537, 0, 0.314465404, 0)
+SpeedPlus.Size = UDim2.new(0, 43, 0, 38)
+SpeedPlus.Font = Enum.Font.Cartoon
+SpeedPlus.Text = "+"
+SpeedPlus.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpeedPlus.TextScaled = true
+SpeedPlus.TextSize = 60.000
+SpeedPlus.TextWrapped = true
+
+UICorner_18.Parent = SpeedPlus
+
+FlyMinus.Name = "FlyMinus"
+FlyMinus.Parent = MainFrame
+FlyMinus.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+FlyMinus.Position = UDim2.new(0.335384607, 0, 0.314465404, 0)
+FlyMinus.Size = UDim2.new(0, 46, 0, 38)
+FlyMinus.Font = Enum.Font.Cartoon
+FlyMinus.Text = "-"
+FlyMinus.TextColor3 = Color3.fromRGB(0, 0, 0)
+FlyMinus.TextScaled = true
+FlyMinus.TextSize = 14.000
+FlyMinus.TextWrapped = true
+
+UICorner_19.Parent = FlyMinus
+
+FlyPlus.Name = "FlyPlus"
+FlyPlus.Parent = MainFrame
+FlyPlus.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+FlyPlus.Position = UDim2.new(0.513846159, 0, 0.314465404, 0)
+FlyPlus.Size = UDim2.new(0, 46, 0, 38)
+FlyPlus.Font = Enum.Font.Cartoon
+FlyPlus.Text = "+"
+FlyPlus.TextColor3 = Color3.fromRGB(0, 0, 0)
+FlyPlus.TextScaled = true
+FlyPlus.TextSize = 14.000
+FlyPlus.TextWrapped = true
+
+UICorner_20.Parent = FlyPlus
+
+TransparencyPlus.Name = "TransparencyPlus"
+TransparencyPlus.Parent = MainFrame
+TransparencyPlus.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+TransparencyPlus.Position = UDim2.new(0.686153829, 0, 0.314465404, 0)
+TransparencyPlus.Size = UDim2.new(0, 43, 0, 38)
+TransparencyPlus.Font = Enum.Font.Cartoon
+TransparencyPlus.Text = "-"
+TransparencyPlus.TextColor3 = Color3.fromRGB(0, 0, 0)
+TransparencyPlus.TextScaled = true
+TransparencyPlus.TextSize = 14.000
+TransparencyPlus.TextWrapped = true
+
+UICorner_21.Parent = TransparencyPlus
+
+AntibanButton.Name = "AntibanButton"
+AntibanButton.Parent = MainFrame
+AntibanButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+AntibanButton.Position = UDim2.new(0.0184615385, 0, 0.628930807, 0)
+AntibanButton.Size = UDim2.new(0, 95, 0, 53)
+AntibanButton.Font = Enum.Font.Cartoon
+AntibanButton.Text = "AntiBan"
+AntibanButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+AntibanButton.TextScaled = true
+AntibanButton.TextSize = 14.000
+AntibanButton.TextWrapped = true
+
+UICorner_22.Parent = AntibanButton
+
+UnbanButton.Name = "UnbanButton"
+UnbanButton.Parent = MainFrame
+UnbanButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+UnbanButton.Position = UDim2.new(0.335384607, 0, 0.628930807, 0)
+UnbanButton.Size = UDim2.new(0, 104, 0, 53)
+UnbanButton.Font = Enum.Font.Cartoon
+UnbanButton.Text = "Unban"
+UnbanButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+UnbanButton.TextScaled = true
+UnbanButton.TextSize = 14.000
+UnbanButton.TextWrapped = true
+
+UICorner_23.Parent = UnbanButton
+
+LockPlayerBox.Name = "LockPlayerBox"
+LockPlayerBox.Parent = MainFrame
+LockPlayerBox.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+LockPlayerBox.Position = UDim2.new(0.686153829, 0, 0.628930807, 0)
+LockPlayerBox.Size = UDim2.new(0, 95, 0, 22)
+LockPlayerBox.Font = Enum.Font.Cartoon
+LockPlayerBox.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+LockPlayerBox.PlaceholderText = "LOCK PLAYER"
+LockPlayerBox.Text = ""
+LockPlayerBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+LockPlayerBox.TextScaled = true
+LockPlayerBox.TextSize = 14.000
+LockPlayerBox.TextWrapped = true
+
+UICorner_24.Parent = LockPlayerBox
+
+KillButton.Name = "KillButton"
+KillButton.Parent = MainFrame
+KillButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+KillButton.Position = UDim2.new(0.686153829, 0, 0.805031419, 0)
+KillButton.Size = UDim2.new(0, 95, 0, 25)
+KillButton.Font = Enum.Font.Cartoon
+KillButton.Text = "Kill"
+KillButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+KillButton.TextScaled = true
+KillButton.TextSize = 14.000
+KillButton.TextWrapped = true
+
+UICorner_25.Parent = KillButton
+
+TransparencyMinus.Name = "TransparencyMinus"
+TransparencyMinus.Parent = MainFrame
+TransparencyMinus.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+TransparencyMinus.Position = UDim2.new(0.846153855, 0, 0.314465404, 0)
+TransparencyMinus.Size = UDim2.new(0, 43, 0, 38)
+TransparencyMinus.Font = Enum.Font.Cartoon
+TransparencyMinus.Text = "+"
+TransparencyMinus.TextColor3 = Color3.fromRGB(0, 0, 0)
+TransparencyMinus.TextScaled = true
+TransparencyMinus.TextSize = 60.000
+TransparencyMinus.TextWrapped = true
+
+UICorner_26.Parent = TransparencyMinus
+
+CombatFrame.Name = "CombatFrame"
+CombatFrame.Parent = Backround
+CombatFrame.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+CombatFrame.Position = UDim2.new(0.272532135, 0, 0.307784528, 0)
+CombatFrame.Size = UDim2.new(0, 325, 0, 159)
+CombatFrame.Visible = false
+
+UICorner_27.Parent = CombatFrame
+
+AimlockButton.Name = "AimlockButton"
+AimlockButton.Parent = CombatFrame
+AimlockButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+AimlockButton.Position = UDim2.new(0.0184615385, 0, 0.0314465426, 0)
+AimlockButton.Size = UDim2.new(0, 153, 0, 37)
+AimlockButton.Font = Enum.Font.Cartoon
+AimlockButton.Text = "Aimlock"
+AimlockButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+AimlockButton.TextScaled = true
+AimlockButton.TextSize = 14.000
+AimlockButton.TextWrapped = true
+
+UICorner_28.Parent = AimlockButton
+
+ReachButton.Name = "ReachButton"
+ReachButton.Parent = CombatFrame
+ReachButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+ReachButton.Position = UDim2.new(0.507692337, 0, 0.0314465426, 0)
+ReachButton.Size = UDim2.new(0, 153, 0, 37)
+ReachButton.Font = Enum.Font.Cartoon
+ReachButton.Text = "Reach"
+ReachButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+ReachButton.TextScaled = true
+ReachButton.TextSize = 14.000
+ReachButton.TextWrapped = true
+
+UICorner_29.Parent = ReachButton
+
+BagAllButton.Name = "BagAllButton"
+BagAllButton.Parent = CombatFrame
+BagAllButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+BagAllButton.Position = UDim2.new(0.0184615552, 0, 0.3081761, 0)
+BagAllButton.Size = UDim2.new(0, 153, 0, 37)
+BagAllButton.Font = Enum.Font.Cartoon
+BagAllButton.Text = "Bag All"
+BagAllButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+BagAllButton.TextScaled = true
+BagAllButton.TextSize = 14.000
+BagAllButton.TextWrapped = true
+
+UICorner_30.Parent = BagAllButton
+
+AntiBagButton.Name = "AntiBagButton"
+AntiBagButton.Parent = CombatFrame
+AntiBagButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+AntiBagButton.Position = UDim2.new(0.507692337, 0, 0.3081761, 0)
+AntiBagButton.Size = UDim2.new(0, 153, 0, 37)
+AntiBagButton.Font = Enum.Font.Cartoon
+AntiBagButton.Text = "Anti Bag"
+AntiBagButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+AntiBagButton.TextScaled = true
+AntiBagButton.TextSize = 14.000
+AntiBagButton.TextWrapped = true
+
+UICorner_31.Parent = AntiBagButton
+
+UnbagButton.Name = "UnbagButton"
+UnbagButton.Parent = CombatFrame
+UnbagButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+UnbagButton.Position = UDim2.new(0.0184615552, 0, 0.578616381, 0)
+UnbagButton.Size = UDim2.new(0, 153, 0, 37)
+UnbagButton.Font = Enum.Font.Cartoon
+UnbagButton.Text = "Unbag"
+UnbagButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+UnbagButton.TextScaled = true
+UnbagButton.TextSize = 14.000
+UnbagButton.TextWrapped = true
+
+UICorner_32.Parent = UnbagButton
+
+KillAllButton.Name = "KillAllButton"
+KillAllButton.Parent = CombatFrame
+KillAllButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+KillAllButton.Position = UDim2.new(0.507692337, 0, 0.578616381, 0)
+KillAllButton.Size = UDim2.new(0, 153, 0, 37)
+KillAllButton.Font = Enum.Font.Cartoon
+KillAllButton.Text = "Kill All"
+KillAllButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+KillAllButton.TextScaled = true
+KillAllButton.TextSize = 14.000
+KillAllButton.TextWrapped = true
+
+UICorner_33.Parent = KillAllButton
+
+AnnoyCopsButton.Name = "AnnoyCopsButton"
+AnnoyCopsButton.Parent = CombatFrame
+AnnoyCopsButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+AnnoyCopsButton.Position = UDim2.new(0.0184615385, 0, 0.849056602, 0)
+AnnoyCopsButton.Size = UDim2.new(0, 312, 0, 15)
+AnnoyCopsButton.Font = Enum.Font.Cartoon
+AnnoyCopsButton.Text = "Annoy Cops"
+AnnoyCopsButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+AnnoyCopsButton.TextScaled = true
+AnnoyCopsButton.TextSize = 14.000
+AnnoyCopsButton.TextWrapped = true
+
+UICorner_34.Parent = AnnoyCopsButton
+
+GodStuffFrame.Name = "GodStuffFrame"
+GodStuffFrame.Parent = Backround
+GodStuffFrame.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+GodStuffFrame.Position = UDim2.new(0.272532135, 0, 0.307784528, 0)
+GodStuffFrame.Size = UDim2.new(0, 325, 0, 159)
+GodStuffFrame.Visible = false
+
+UICorner_35.Parent = GodStuffFrame
+
+SkinnyGodModeButton.Name = "SkinnyGodModeButton"
+SkinnyGodModeButton.Parent = GodStuffFrame
+SkinnyGodModeButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+SkinnyGodModeButton.Position = UDim2.new(0.0184615385, 0, 0.0314465426, 0)
+SkinnyGodModeButton.Size = UDim2.new(0, 152, 0, 86)
+SkinnyGodModeButton.Font = Enum.Font.SourceSans
+SkinnyGodModeButton.Text = "Skinny-God Mode"
+SkinnyGodModeButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+SkinnyGodModeButton.TextSize = 18.000
+SkinnyGodModeButton.TextWrapped = true
+
+UICorner_36.Parent = SkinnyGodModeButton
+
+GodUnbanButton.Name = "GodUnbanButton"
+GodUnbanButton.Parent = GodStuffFrame
+GodUnbanButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+GodUnbanButton.Position = UDim2.new(0.510769248, 0, 0.0314465426, 0)
+GodUnbanButton.Size = UDim2.new(0, 152, 0, 86)
+GodUnbanButton.Font = Enum.Font.SourceSans
+GodUnbanButton.Text = "Godmode+Unban"
+GodUnbanButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+GodUnbanButton.TextSize = 18.000
+GodUnbanButton.TextWrapped = true
+
+UICorner_37.Parent = GodUnbanButton
+
+GodUnbanSkinnyButton.Name = "GodUnbanSkinnyButton"
+GodUnbanSkinnyButton.Parent = GodStuffFrame
+GodUnbanSkinnyButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+GodUnbanSkinnyButton.Position = UDim2.new(0.0184615385, 0, 0.628930807, 0)
+GodUnbanSkinnyButton.Size = UDim2.new(0, 312, 0, 51)
+GodUnbanSkinnyButton.Font = Enum.Font.SourceSans
+GodUnbanSkinnyButton.Text = "Godmode+Unban+Skinny"
+GodUnbanSkinnyButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+GodUnbanSkinnyButton.TextSize = 18.000
+GodUnbanSkinnyButton.TextWrapped = true
+
+UICorner_38.Parent = GodUnbanSkinnyButton
+
+FunStuffFrame.Name = "FunStuffFrame"
+FunStuffFrame.Parent = Backround
+FunStuffFrame.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+FunStuffFrame.Position = UDim2.new(0.272532135, 0, 0.307784528, 0)
+FunStuffFrame.Size = UDim2.new(0, 325, 0, 159)
+FunStuffFrame.Visible = false
+
+UICorner_39.Parent = FunStuffFrame
+
+KorbloxGiverButton.Name = "KorbloxGiverButton"
+KorbloxGiverButton.Parent = FunStuffFrame
+KorbloxGiverButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+KorbloxGiverButton.Position = UDim2.new(0.0246153846, 0, 0.0314465426, 0)
+KorbloxGiverButton.Size = UDim2.new(0, 99, 0, 42)
+KorbloxGiverButton.Font = Enum.Font.Cartoon
+KorbloxGiverButton.Text = "Korblox"
+KorbloxGiverButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+KorbloxGiverButton.TextSize = 30.000
+KorbloxGiverButton.TextWrapped = true
+
+UICorner_40.Parent = KorbloxGiverButton
+
+HeadlessButton.Name = "HeadlessButton"
+HeadlessButton.Parent = FunStuffFrame
+HeadlessButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+HeadlessButton.Position = UDim2.new(0.347692311, 0, 0.0314465426, 0)
+HeadlessButton.Size = UDim2.new(0, 99, 0, 42)
+HeadlessButton.Font = Enum.Font.Cartoon
+HeadlessButton.Text = "Headless"
+HeadlessButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+HeadlessButton.TextScaled = true
+HeadlessButton.TextSize = 14.000
+HeadlessButton.TextWrapped = true
+
+UICorner_41.Parent = HeadlessButton
+
+SupermanFlyButton.Name = "SupermanFlyButton"
+SupermanFlyButton.Parent = FunStuffFrame
+SupermanFlyButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+SupermanFlyButton.Position = UDim2.new(0.676923096, 0, 0.0314465426, 0)
+SupermanFlyButton.Size = UDim2.new(0, 99, 0, 42)
+SupermanFlyButton.Font = Enum.Font.Cartoon
+SupermanFlyButton.Text = "Superman"
+SupermanFlyButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+SupermanFlyButton.TextScaled = true
+SupermanFlyButton.TextSize = 14.000
+SupermanFlyButton.TextWrapped = true
+
+UICorner_42.Parent = SupermanFlyButton
+
+AmogusButton.Name = "AmogusButton"
+AmogusButton.Parent = FunStuffFrame
+AmogusButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+AmogusButton.Position = UDim2.new(0.0246153846, 0, 0.35542652, 0)
+AmogusButton.Size = UDim2.new(0, 99, 0, 42)
+AmogusButton.Font = Enum.Font.Cartoon
+AmogusButton.Text = "Amogus"
+AmogusButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+AmogusButton.TextScaled = true
+AmogusButton.TextSize = 14.000
+AmogusButton.TextWrapped = true
+
+UICorner_43.Parent = AmogusButton
+
+AngelButton.Name = "AngelButton"
+AngelButton.Parent = FunStuffFrame
+AngelButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+AngelButton.Position = UDim2.new(0.347692311, 0, 0.35542652, 0)
+AngelButton.Size = UDim2.new(0, 99, 0, 42)
+AngelButton.Font = Enum.Font.Cartoon
+AngelButton.Text = "Angel"
+AngelButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+AngelButton.TextScaled = true
+AngelButton.TextSize = 14.000
+AngelButton.TextWrapped = true
+
+UICorner_44.Parent = AngelButton
+
+DemonButton.Name = "DemonButton"
+DemonButton.Parent = FunStuffFrame
+DemonButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+DemonButton.Position = UDim2.new(0.676923096, 0, 0.35542652, 0)
+DemonButton.Size = UDim2.new(0, 99, 0, 42)
+DemonButton.Font = Enum.Font.Cartoon
+DemonButton.Text = "Demon"
+DemonButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+DemonButton.TextScaled = true
+DemonButton.TextSize = 14.000
+DemonButton.TextWrapped = true
+
+UICorner_45.Parent = DemonButton
+
+FortniteBuildButton.Name = "FortniteBuildButton"
+FortniteBuildButton.Parent = FunStuffFrame
+FortniteBuildButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+FortniteBuildButton.Position = UDim2.new(0.0246153846, 0, 0.687308431, 0)
+FortniteBuildButton.Size = UDim2.new(0, 99, 0, 42)
+FortniteBuildButton.Font = Enum.Font.Cartoon
+FortniteBuildButton.Text = "Fortnite Builds"
+FortniteBuildButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+FortniteBuildButton.TextSize = 16.000
+FortniteBuildButton.TextWrapped = true
+
+UICorner_46.Parent = FortniteBuildButton
+
+ShazamButton.Name = "ShazamButton"
+ShazamButton.Parent = FunStuffFrame
+ShazamButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+ShazamButton.Position = UDim2.new(0.347692311, 0, 0.687308431, 0)
+ShazamButton.Size = UDim2.new(0, 99, 0, 42)
+ShazamButton.Font = Enum.Font.Cartoon
+ShazamButton.Text = "Shazam!"
+ShazamButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+ShazamButton.TextScaled = true
+ShazamButton.TextSize = 14.000
+ShazamButton.TextWrapped = true
+
+UICorner_47.Parent = ShazamButton
+
+FatDumpButton.Name = "FatDumpButton"
+FatDumpButton.Parent = FunStuffFrame
+FatDumpButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+FatDumpButton.Position = UDim2.new(0.676923096, 0, 0.687308431, 0)
+FatDumpButton.Size = UDim2.new(0, 99, 0, 42)
+FatDumpButton.Font = Enum.Font.Cartoon
+FatDumpButton.Text = "Fat Dump"
+FatDumpButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+FatDumpButton.TextSize = 25.000
+FatDumpButton.TextWrapped = true
+
+UICorner_48.Parent = FatDumpButton
+
+CreditsFrame.Name = "CreditsFrame"
+CreditsFrame.Parent = Backround
+CreditsFrame.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+CreditsFrame.Position = UDim2.new(0.272532135, 0, 0.307784528, 0)
+CreditsFrame.Size = UDim2.new(0, 325, 0, 159)
+CreditsFrame.Visible = false
+
+UICorner_49.Parent = CreditsFrame
+
+TextLabel.Parent = CreditsFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.190769225, 0, 0.106918238, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.Cartoon
+TextLabel.Text = "Credits to: DiphyPlayz"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = CreditsFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.113846146, 0, 0.615521491, 0)
+TextLabel_2.Size = UDim2.new(0, 250, 0, 22)
+TextLabel_2.Font = Enum.Font.Cartoon
+TextLabel_2.Text = "(he didn't help he's just my brother)"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
 -- Scripts:
 
-local function ODSHMXQ_fake_script() -- Gui.Open/Close 
+local function RTYIK_fake_script() -- Gui.Open/Close 
 	local script = Instance.new('LocalScript', Gui)
 
 	local FrameObject = script.Parent.FrameObject
@@ -267,4 +896,12 @@ local function ODSHMXQ_fake_script() -- Gui.Open/Close
 		end
 	end)
 end
-coroutine.wrap(ODSHMXQ_fake_script)()
+coroutine.wrap(RTYIK_fake_script)()
+local function XNSS_fake_script() -- Gui.Draggable 
+	local script = Instance.new('LocalScript', Gui)
+
+	script.Parent.Active = true
+	script.Parent.Selectable = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(XNSS_fake_script)()
